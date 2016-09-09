@@ -1,0 +1,41 @@
+<ion-view view-title="My Saved Cards">
+  <!-- do you want padding? -->
+  <ion-content class="padding custom-background">
+
+    <div class="bar bar-energized card-view-subheader">
+      <h2 class="title">Swipe Right for Actions</h2>
+    </div>
+
+    <!--&lt;!&ndash; content goes here &ndash;&gt;-->
+    <!--<ion-list>-->
+      <!--<ion-item class="item item-divider">-->
+        <!--This is your liked-cards template!-->
+      <!--</ion-item>-->
+      <!--<ion-item class="item item-icon">-->
+        <!--Yeiiii!-->
+      <!--</ion-item>-->
+    <!--</ion-list>-->
+
+
+    <ion-list show-delete="false" can-swipe="true">
+
+      <ion-item class="item-borderless single-card" ng-repeat="card in cards track by $index">
+        <img class="single-card-image" src="{{::card.value.editions[0].image_url}}" alt="Card Image">
+
+
+        <!--//TODO: update share and add delete-->
+        <!--<ion-option-button class="button-calm icon ion-android-share-alt"-->
+                           <!--ng-click="share()"></ion-option-button>-->
+        <ion-option-button class="button-assertive icon ion-trash-b" ng-click="delete(card, $index)"
+        ></ion-option-button>
+
+        <!--ng-disabled="$localForage.getItem(item) || array[item]"-->
+        <!---->
+        <!--ng-disabled="$localForage.getItem(item) === item"-->
+        <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+        <!--<h4>{{::set.setCode}}</h4>-->
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>

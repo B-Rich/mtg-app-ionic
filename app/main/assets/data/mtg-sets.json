@@ -1,0 +1,670 @@
+[
+  {
+    "setTitle": "Alpha",
+    "setCode": "lea"
+  },
+  {
+    "setTitle": "Beta",
+    "setCode": "leb"
+  },
+  {
+    "setTitle": "Unlimited",
+    "setCode": "2ed"
+  },
+  {
+    "setTitle": "Revised",
+    "setCode": "3ed"
+  },
+  {
+    "setTitle": "Fourth Edition",
+    "setCode": "4ed"
+  },
+  {
+    "setTitle": "Summer Magic",
+    "setCode": "psum"
+  },
+  {
+    "setTitle": "Fifth Edition",
+    "setCode": "5ed"
+  },
+  {
+    "setTitle": "Sixth Edition",
+    "setCode": "6ed"
+  },
+  {
+    "setTitle": "Seventh Edition",
+    "setCode": "7ed"
+  },
+  {
+    "setTitle": "Eigth Edition",
+    "setCode": "8ed"
+  },
+  {
+    "setTitle": "Ninth Edition",
+    "setCode": "9ed"
+  },
+  {
+    "setTitle": "Tenth Edition",
+    "setCode": "10e"
+  },
+  {
+    "setTitle": "Magic 2010",
+    "setCode": "m10"
+  },
+  {
+    "setTitle": "Magic 2011",
+    "setCode": "m11"
+  },
+  {
+    "setTitle": "Magic 2012",
+    "setCode": "m12"
+  },
+  {
+    "setTitle": "Magic 2013",
+    "setCode": "m13"
+  },
+  {
+    "setTitle": "Magic 2014",
+    "setCode": "m14"
+  },
+  {
+    "setTitle": "Magic 2015",
+    "setCode": "m15"
+  },
+  {
+    "setTitle": "Blank Core Set",
+    "setCode": "bcore"
+  },
+  {
+    "setTitle": "Magic Origins",
+    "setCode": "ori"
+  },
+  {
+    "setTitle": "Arabian Nights",
+    "setCode": "arn"
+  },
+  {
+    "setTitle": "Antiquities",
+    "setCode": "atq"
+  },
+  {
+    "setTitle": "Legends",
+    "setCode": "leg"
+  },
+  {
+    "setTitle": "The Dark",
+    "setCode": "drk"
+  },
+  {
+    "setTitle": "Fallen Empires",
+    "setCode": "fem"
+  },
+  {
+    "setTitle": "Homelands",
+    "setCode": "hml"
+  },
+  {
+    "setTitle": "Ice Age",
+    "setCode": "ice"
+  },
+  {
+    "setTitle": "Alliances",
+    "setCode": "all"
+  },
+  {
+    "setTitle": "Coldsnap",
+    "setCode": "csp"
+  },
+  {
+    "setTitle": "Mirage",
+    "setCode": "mir"
+  },
+  {
+    "setTitle": "Visions",
+    "setCode": "vis"
+  },
+  {
+    "setTitle": "Weatherlight",
+    "setCode": "wth"
+  },
+  {
+    "setTitle": "Tempest",
+    "setCode": "tmp"
+  },
+  {
+    "setTitle": "Stronghold",
+    "setCode": "sth"
+  },
+  {
+    "setTitle": "Exodus",
+    "setCode": "exo"
+  },
+  {
+    "setTitle": "Urza's Saga",
+    "setCode": "usg"
+  },
+  {
+    "setTitle": "Urza's Legacy",
+    "setCode": "ulg"
+  },
+  {
+    "setTitle": "Urza's Destiny",
+    "setCode": "uds"
+  },
+  {
+    "setTitle": "Mercadian Masques",
+    "setCode": "mmq"
+  },
+  {
+    "setTitle": "Nemesis",
+    "setCode": "nms"
+  },
+  {
+    "setTitle": "Prophecy",
+    "setCode": "pcy"
+  },
+  {
+    "setTitle": "Invasion",
+    "setCode": "inv"
+  },
+  {
+    "setTitle": "Planeshift",
+    "setCode": "pls"
+  },
+  {
+    "setTitle": "Apocalypse",
+    "setCode": "apc"
+  },
+  {
+    "setTitle": "Odyssey",
+    "setCode": "ody"
+  },
+  {
+    "setTitle": "Torment",
+    "setCode": "tor"
+  },
+  {
+    "setTitle": "Judgement",
+    "setCode": "jud"
+  },
+  {
+    "setTitle": "Onslaught",
+    "setCode": "ons"
+  },
+  {
+    "setTitle": "Legions",
+    "setCode": "lgn"
+  },
+  {
+    "setTitle": "Scourge",
+    "setCode": "scg"
+  },
+  {
+    "setTitle": "Mirrodin",
+    "setCode": "mrd"
+  },
+  {
+    "setTitle": "Darksteel",
+    "setCode": "dst"
+  },
+  {
+    "setTitle": "Fifth Dawn",
+    "setCode": "5dn"
+  },
+  {
+    "setTitle": "Champions of Kamigawa",
+    "setCode": "chk"
+  },
+  {
+    "setTitle": "Betrayers of Kamigawa",
+    "setCode": "bok"
+  },
+  {
+    "setTitle": "Saviors of Kamigawa",
+    "setCode": "sok"
+  },
+  {
+    "setTitle": "Ravnica",
+    "setCode": "rav"
+  },
+  {
+    "setTitle": "Guildpact",
+    "setCode": "gpt"
+  },
+  {
+    "setTitle": "Dissension",
+    "setCode": "dis"
+  },
+  {
+    "setTitle": "Time Spiral",
+    "setCode": "tsp"
+  },
+  {
+    "setTitle": "Planar Chaos",
+    "setCode": "plc"
+  },
+  {
+    "setTitle": "Future Sight",
+    "setCode": "fut"
+  },
+  {
+    "setTitle": "Lorwyn",
+    "setCode": "lrw"
+  },
+  {
+    "setTitle": "Morningtide",
+    "setCode": "mor"
+  },
+  {
+    "setTitle": "Shadowmore",
+    "setCode": "shm"
+  },
+  {
+    "setTitle": "Eventide",
+    "setCode": "eve"
+  },
+  {
+    "setTitle": "Shards of Alara",
+    "setCode": "ala"
+  },
+  {
+    "setTitle": "Conflux",
+    "setCode": "con"
+  },
+  {
+    "setTitle": "Alara Reborn",
+    "setCode": "arb"
+  },
+  {
+    "setTitle": "Zendikar",
+    "setCode": "zen"
+  },
+  {
+    "setTitle": "Worldwake",
+    "setCode": "wwk"
+  },
+  {
+    "setTitle": "Rise of Eldrazi",
+    "setCode": "roe"
+  },
+  {
+    "setTitle": "Scars of Mirrodin",
+    "setCode": "som"
+  },
+  {
+    "setTitle": "Mirrodin Besieged",
+    "setCode": "mbs"
+  },
+  {
+    "setTitle": "New Phyrexia",
+    "setCode": "nph"
+  },
+  {
+    "setTitle": "Innistrad",
+    "setCode": "isd"
+  },
+  {
+    "setTitle": "Dark Ascension",
+    "setCode": "dka"
+  },
+  {
+    "setTitle": "Avacyn Restored",
+    "setCode": "avr"
+  },
+  {
+    "setTitle": "Return to Ravnica",
+    "setCode": "rtr"
+  },
+  {
+    "setTitle": "Gatecrash",
+    "setCode": "gtc"
+  },
+  {
+    "setTitle": "Dragon's Maze",
+    "setCode": "dgm"
+  },
+  {
+    "setTitle": "Theros",
+    "setCode": "ths"
+  },
+  {
+    "setTitle": "Born of the Gods",
+    "setCode": "bng"
+  },
+  {
+    "setTitle": "Journey into Nyx",
+    "setCode": "jou"
+  },
+  {
+    "setTitle": "Khans of Tarkir",
+    "setCode": "ktk"
+  },
+  {
+    "setTitle": "Fate Reforged",
+    "setCode": "frf"
+  },
+  {
+    "setTitle": "Dragons of Tarkir",
+    "setCode": "dtk"
+  },
+  {
+    "setTitle": "Battle for Zendikar",
+    "setCode": "bfz"
+  },
+  {
+    "setTitle": "Oath of the Gatewatch",
+    "setCode": "ogw"
+  },
+  {
+    "setTitle": "Shadows Over Innistrad",
+    "setCode": "soi"
+  },
+  {
+    "setTitle": "Eldritch Moon",
+    "setCode": "emn"
+  },
+  {
+    "setTitle": "Vanguard",
+    "setCode": "van"
+  },
+  {
+    "setTitle": "Planechase",
+    "setCode": "hop"
+  },
+  {
+    "setTitle": "Archenemy",
+    "setCode": "arc"
+  },
+  {
+    "setTitle": "Commander",
+    "setCode": "cmd"
+  },
+  {
+    "setTitle": "Planechase 2012",
+    "setCode": "pc2"
+  },
+  {
+    "setTitle": "Commander's Arsenal",
+    "setCode": "cm1"
+  },
+  {
+    "setTitle": "Commander 2013",
+    "setCode": "c13"
+  },
+  {
+    "setTitle": "Conspiracy",
+    "setCode": "cns"
+  },
+  {
+    "setTitle": "Commander 2014",
+    "setCode": "c14"
+  },
+  {
+    "setTitle": "Commander 2015",
+    "setCode": "c15"
+  },
+  {
+    "setTitle": "Conspiracy 2: Take the Crown",
+    "setCode": "cn2"
+  },
+  {
+    "setTitle": "Chronicles",
+    "setCode": "chr"
+  },
+  {
+    "setTitle": "Anthologies",
+    "setCode": "ath"
+  },
+  {
+    "setTitle": "Battle Royale",
+    "setCode": "brb"
+  },
+  {
+    "setTitle": "Beatdown",
+    "setCode": "btd"
+  },
+  {
+    "setTitle": "Deckmasters",
+    "setCode": "dkm"
+  },
+  {
+    "setTitle": "Modern Masters",
+    "setCode": "mma"
+  },
+  {
+    "setTitle": "Modern Masters 2015",
+    "setCode": "mm2"
+  },
+  {
+    "setTitle": "Eternal Masters",
+    "setCode": "ema"
+  },
+  {
+    "setTitle": "Portal",
+    "setCode": "por"
+  },
+  {
+    "setTitle": "Portal 2",
+    "setCode": "po2"
+  },
+  {
+    "setTitle": "Portal Three Kingdoms",
+    "setCode": "ptk"
+  },
+  {
+    "setTitle": "Starter 1999",
+    "setCode": "s99"
+  },
+  {
+    "setTitle": "Starter 2000",
+    "setCode": "s00"
+  },
+  {
+    "setTitle": "Welcome Deck 2016",
+    "setCode": "w16"
+  },
+  {
+    "setTitle": "Elves v. Goblins",
+    "setCode": "evg"
+  },
+  {
+    "setTitle": "Jace v. Chandra",
+    "setCode": "dd2"
+  },
+  {
+    "setTitle": "Divine v. Demonic",
+    "setCode": "ddc"
+  },
+  {
+    "setTitle": "Garruk v. Liliana",
+    "setCode": "ddd"
+  },
+  {
+    "setTitle": "Phyrexia v. Coalition",
+    "setCode": "dde"
+  },
+  {
+    "setTitle": "Elspeth v. Tezzeret",
+    "setCode": "ddf"
+  },
+  {
+    "setTitle": "Knights v. Dragons",
+    "setCode": "ddg"
+  },
+  {
+    "setTitle": "Ajani v. Nicol Bolas",
+    "setCode": "ddh"
+  },
+  {
+    "setTitle": "Venser v. Koth",
+    "setCode": "ddi"
+  },
+  {
+    "setTitle": "Izzet v. Golgari",
+    "setCode": "ddj"
+  },
+  {
+    "setTitle": "Sorin v. Tibalt",
+    "setCode": "ddk"
+  },
+  {
+    "setTitle": "Heroes v. Monsters",
+    "setCode": "ddl"
+  },
+  {
+    "setTitle": "Jace v. Vraska",
+    "setCode": "ddm"
+  },
+  {
+    "setTitle": "Speed v. Cunning",
+    "setCode": "ddn"
+  },
+  {
+    "setTitle": "Kiora v. Elspeth",
+    "setCode": "ddo"
+  },
+  {
+    "setTitle": "Zendikar v. Eldrazi",
+    "setCode": "ddp"
+  },
+  {
+    "setTitle": "Blessed v. Cursed",
+    "setCode": "ddq"
+  },
+  {
+    "setTitle": "FTV: Dragons",
+    "setCode": "drb"
+  },
+  {
+    "setTitle": "FTV: Exiled",
+    "setCode": "v09"
+  },
+  {
+    "setTitle": "FTV: Relics",
+    "setCode": "v10"
+  },
+  {
+    "setTitle": "FTV: Legends",
+    "setCode": "v11"
+  },
+  {
+    "setTitle": "FTV: Realms",
+    "setCode": "v12"
+  },
+  {
+    "setTitle": "FTV: Twenty",
+    "setCode": "v13"
+  },
+  {
+    "setTitle": "FTV: Annihilation",
+    "setCode": "v14"
+  },
+  {
+    "setTitle": "FTV: Angels",
+    "setCode": "v15"
+  },
+  {
+    "setTitle": "FTV: Lore",
+    "setCode": "v16"
+  },
+  {
+    "setTitle": "PDS: Slivers",
+    "setCode": "h09"
+  },
+  {
+    "setTitle": "PDS: Fire & Lightning",
+    "setCode": "pd2"
+  },
+  {
+    "setTitle": "PDS: Graveborn",
+    "setCode": "pd3"
+  },
+  {
+    "setTitle": "Modern Event Deck",
+    "setCode": "md1"
+  },
+  {
+    "setTitle": "Guru Lands",
+    "setCode": "pgru"
+  },
+  {
+    "setTitle": "MtG Promo",
+    "setCode": "pmtg1"
+  },
+  {
+    "setTitle": "MtG Promo",
+    "setCode": "Alt "
+  },
+  {
+    "setTitle": "Leaf Promo",
+    "setCode": "pleaf"
+  },
+  {
+    "setTitle": "Media Insert",
+    "setCode": "pmei"
+  },
+  {
+    "setTitle": "Arena Promo",
+    "setCode": "DCI "
+  },
+  {
+    "setTitle": "Duels of the Planeswalkers",
+    "setCode": "dpa"
+  },
+  {
+    "setTitle": "Book Inserts",
+    "setCode": "pbook"
+  },
+  {
+    "setTitle": "Astral",
+    "setCode": "past"
+  },
+  {
+    "setTitle": "Arena League",
+    "setCode": "parl2"
+  },
+  {
+    "setTitle": "Zendikar Expeditions",
+    "setCode": "exp"
+  },
+  {
+    "setTitle": "Salvat 2005",
+    "setCode": "psalvat05"
+  },
+  {
+    "setTitle": "Salvat 2011",
+    "setCode": "psalvat11"
+  },
+  {
+    "setTitle": "Masters Edition",
+    "setCode": "med"
+  },
+  {
+    "setTitle": "Masters Edition II",
+    "setCode": "me2"
+  },
+  {
+    "setTitle": "Masters Edition III",
+    "setCode": "me3"
+  },
+  {
+    "setTitle": "Masters Edition IV",
+    "setCode": "me4"
+  },
+  {
+    "setTitle": "Vintage Masters",
+    "setCode": "vma"
+  },
+  {
+    "setTitle": "Tempest Remastered",
+    "setCode": "tpr"
+  },
+  {
+    "setTitle": "Unglued",
+    "setCode": "ugl"
+  },
+  {
+    "setTitle": "Unhinged",
+    "setCode": "unh"
+  }
+]

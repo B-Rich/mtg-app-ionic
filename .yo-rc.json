@@ -1,0 +1,22 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "mtg-app",
+      "appId": "ashik.project",
+      "ionicCss": false,
+      "bowerPackages": [
+        "localforage#~1.4.0"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "plugins": [
+        "cordova-plugin-device"
+      ],
+      "appModule": "mtgApp",
+      "ecosystems": [
+        "ionic-platform"
+      ]
+    }
+  }
+}

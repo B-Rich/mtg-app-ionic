@@ -1,0 +1,58 @@
+<ion-view view-title="{{::setTitle}}">
+    <!-- do you want padding? -->
+
+
+    <ion-content class="custom-background">
+
+        <div class="bar bar-energized card-view-subheader">
+            <h2 class="title">Swipe Right for Actions</h2>
+        </div>
+        <!-- content goes here -->
+        <!--<ion-list>-->
+        <!--<ion-item class="item item-divider">-->
+        <!--This is your single-set template!-->
+        <!--</ion-item>-->
+        <!--<ion-item class="item item-icon">-->
+        <!--{{setCode}}-->
+        <!--</ion-item>-->
+        <!--</ion-list>-->
+
+        <!--card list..-->
+
+
+        <ion-list show-delete="false" can-swipe="true">
+            <ion-item ng-repeat="card in cards " class="item-borderless single-card">
+            <!--works-->
+            <img class="single-card-image" src="{{::card.editions[0].image_url}}" alt="Card Image">
+            <ion-option-button class="button-assertive icon ion-android-star" ng-click="save(card)"
+            ></ion-option-button>
+
+            <!--<ion-item class="item-borderless single-card" ng-repeat="item in nums">-->
+                <!--<img class="single-card-image" src="https://image.deckbrew.com/mtg/multiverseid/398411.jpg"-->
+                     <!--alt="Card Image">-->
+                <!--&lt;!&ndash;<ion-option-button class="button-calm icon ion-android-share-alt"&ndash;&gt;-->
+                <!--&lt;!&ndash;ng-click="share()"></ion-option-button>&ndash;&gt;-->
+                <!--<ion-option-button class="button-assertive icon ion-android-star" ng-click="save(item)"-->
+                <!--&gt;</ion-option-button>-->
+
+                <!--ng-disabled="$localForage.getItem(item) || array[item]"-->
+                <!---->
+                <!--ng-disabled="$localForage.getItem(item) === item"-->
+                <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+                <!--<h4>{{::set.setCode}}</h4>-->
+            </ion-item>
+        </ion-list>
+
+        <ion-infinite-scroll ng-if="thereAreMoreCards" immediate-check="false" on-infinite="loadMore()">
+        </ion-infinite-scroll>
+
+        <!--//TODO: add another ng-if isThisSet finished-->
+
+        <button ng-if="!thereAreMoreCards" class="button button-full  button-mark-set " ng-click="setFinished()"
+                ng-disabled="finishedSet">
+            Mark This Set As Finished
+        </button>
+
+        <!--immediate-check="false"-->
+    </ion-content>
+</ion-view>

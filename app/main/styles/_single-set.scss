@@ -1,0 +1,75 @@
+.single-card {
+  text-align: center;
+  background-color: #F3EDDD;
+
+  img {
+
+    //box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  }
+
+  //.test {
+  //  border: 3px solid #000;
+  //}
+  //
+  //.test1 {
+  //  border: 3px solid #000;
+  //  color: red;
+  //}
+
+  .item-content {
+    padding: 0;
+    padding-top: 5px;
+    background-color: #F3EDDC;
+  }
+
+}
+
+.button-mark-set {
+  background-color: #D5B365;
+  color: #fff;
+}
+
+.single-card-image{
+  width: 80%;
+
+}
+
+.home-page {
+  .mtg-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .logo-title{
+    text-align: center;
+  }
+
+
+  .list:last-child.card {
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-top: 0;
+  }
+
+  .item-divider{
+    text-align: center;
+  }
+
+}
+
+.bar.bar-dark{
+  background: #FFA17F; /* fallback for old browsers */ background: -webkit-linear-gradient(to left, #FFA17F , #00223E); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to left, #FFA17F , #00223E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.custom-background{
+  background-color: #F3EDDC;
+}
+.card-view-subheader{
+  margin-bottom: 10px;
+  //z-index: 9;
+  position: relative;
+}

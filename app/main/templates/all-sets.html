@@ -1,0 +1,71 @@
+<ion-view view-title="Card Sets">
+    <!-- do you want padding? -->
+    <ion-content class="padding custom-background">
+
+        <!-- content goes here -->
+        <!--<ion-list>-->
+        <!--<ion-item class="item item-divider">-->
+        <!--This is your all-sets template!-->
+        <!--</ion-item>-->
+        <!--<ion-item class="item item-icon">-->
+        <!--Yeiiii!-->
+        <!--</ion-item>-->
+        <!--</ion-list>-->
+
+
+        <!--{{cardSets}}-->
+
+        <ion-list>
+            <ion-item collection-repeat="set in cardSets "
+                      class="item-remove-animate  item-icon-right"
+                      type="item-text-wrap"
+                      ui-sref="main.singleSet({ setCode:set.setCode, setTitle:set.setTitle })"
+            >
+
+                <!--<div ng-class="::{ test: test(set.setCode) }"></div>-->
+
+
+                <!--<div ng-if="::{  test(set.setCode) }"></div>-->
+
+                <!--//ssgrad is off-->
+
+                <span ng-switch="set.setExists">
+                      <i class="ss ss-{{ set.setCode}}  ss-3x  ss-rare ss-fw      "
+                         ng-switch-when="true"></i>
+                          <i class="ss ss-{{ set.setCode}}  ss-3x  ss-common ss-fw     "
+                             ng-switch-default></i>
+                </span>
+                {{ set.setTitle}}
+
+                <!--<i class="ss ss-{{::set.setCode}}  ss-3x  ss-rare ss-fw      "-->
+                <!--ng-if="set.setExists"></i>-->
+                <!--<i class="ss ss-{{::set.setCode}}  ss-3x  ss-common ss-fw     "-->
+                <!--ng-if="!set.setExists"></i>-->
+
+
+                <!--<i class="ss ss-{{::set.setCode}}  ss-3x  ss-common ss-fw   ss-uncommon ss-grad"-->
+                <!--ng-if="set.setExists"></i>-->
+                <!--{{::set.setExists}}-->
+                <!--{{::test(set.setCode) }}-->
+                <!--{{test(set.setCode)}}-->
+
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <!--<h4>{{::set.setCode}}</h4>-->
+            </ion-item>
+        </ion-list>
+        <!--ng-class="::{ 'ss-3x': test(set.setCode) }"-->
+        <!--ng-show="test(set.setCode)"-->
+        <!--ng-if="test(set.setCode)"-->
+        <!--$localForage.getItem('myName')-->
+        <!--<ion-item-->
+        <!--class="item-remove-animate item-avatar item-icon-right"-->
+        <!--type="item-text-wrap"-->
+        <!--ui-sref="main.listDetail">-->
+        <!--<img src="main/assets/images/yo@2x.png">-->
+        <!--<h2>Mr. Yo</h2>-->
+        <!--<p>Learn more...</p>-->
+        <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+        <!--</ion-item>-->
+
+    </ion-content>
+</ion-view>
