@@ -21,15 +21,16 @@
 
 
         <ion-list show-delete="false" can-swipe="true">
-            <ion-item ng-repeat="card in cards " class="item-borderless single-card">
-            <!--works-->
-            <img class="single-card-image" src="{{::card.editions[0].image_url}}" alt="Card Image">
-            <ion-option-button class="button-assertive icon ion-android-star" ng-click="save(card)"
-            ></ion-option-button>
+            <ion-item collection-repeat="card in cards " class="item-borderless single-card"
+                      item-height="320" item-width="100%">
+                <!--works-->
+                <img class="single-card-image" src="{{card.editions[0].image_url}}" alt="Card Image">
+                <ion-option-button class="button-assertive icon ion-android-star" ng-click="save(card)"
+                ></ion-option-button>
 
-            <!--<ion-item class="item-borderless single-card" ng-repeat="item in nums">-->
+                <!--<ion-item class="item-borderless single-card" ng-repeat="item in nums">-->
                 <!--<img class="single-card-image" src="https://image.deckbrew.com/mtg/multiverseid/398411.jpg"-->
-                     <!--alt="Card Image">-->
+                <!--alt="Card Image">-->
                 <!--&lt;!&ndash;<ion-option-button class="button-calm icon ion-android-share-alt"&ndash;&gt;-->
                 <!--&lt;!&ndash;ng-click="share()"></ion-option-button>&ndash;&gt;-->
                 <!--<ion-option-button class="button-assertive icon ion-android-star" ng-click="save(item)"-->
