@@ -19,12 +19,12 @@
 
         <!--card list..-->
 
-
+<!--//TODO: turn off limit-->
         <ion-list show-delete="false" can-swipe="true">
             <ion-item collection-repeat="card in cards " class="item-borderless single-card"
                       item-height="320" item-width="100%">
                 <!--works-->
-                <img class="single-card-image" src="{{card.editions[0].image_url}}" alt="Card Image">
+                <img class="single-card-image" ng-src="{{card.image}}" alt="Card Image Not Found">
                 <ion-option-button class="button-assertive icon ion-android-star" ng-click="save(card)"
                 ></ion-option-button>
 
@@ -47,7 +47,6 @@
         <ion-infinite-scroll ng-if="thereAreMoreCards" immediate-check="false" on-infinite="loadMore()">
         </ion-infinite-scroll>
 
-        <!--//TODO: add another ng-if isThisSet finished-->
 
         <button ng-if="!thereAreMoreCards" class="button button-full  button-mark-set " ng-click="setFinished()"
                 ng-disabled="finishedSet">

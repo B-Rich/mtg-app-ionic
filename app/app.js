@@ -13,9 +13,9 @@ angular.module('mtgApp', [
     //   driver: 'localStorageWrapper'
     // });
 
-}]).config(function($logProvider, $compileProvider, $ionicConfigProvider) {
+}]).config(function ($logProvider, $compileProvider, $ionicConfigProvider) {
     //remember this for build
-    if (true) {
+    if(true) {
         $logProvider.debugEnabled(false);
         $compileProvider.debugInfoEnabled(false);
         // $compileProvider.commentDirectivesEnabled(false);

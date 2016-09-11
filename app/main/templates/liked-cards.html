@@ -19,11 +19,13 @@
 
     <ion-list show-delete="false" can-swipe="true">
 
-      <ion-item class="item-borderless single-card" ng-repeat="card in cards track by $index">
-        <img class="single-card-image" src="{{::card.value.editions[0].image_url}}" alt="Card Image">
+      <ion-item class="item-borderless single-card" collection-repeat="card in cards " item-height="320" item-width="100%">
+        <img class="single-card-image" src="{{card.value.editions[0].image_url}}" alt="Card Image">
 
 
-        <!--//TODO: update share and add delete-->
+
+
+            <!--//TODO: update share and add delete-->
         <!--<ion-option-button class="button-calm icon ion-android-share-alt"-->
                            <!--ng-click="share()"></ion-option-button>-->
         <ion-option-button class="button-assertive icon ion-trash-b" ng-click="delete(card, $index)"
@@ -39,3 +41,6 @@
 
   </ion-content>
 </ion-view>
+
+
+ionic plugin add cordova-plugin-x-socialsharing cordova-plugin-email-composer ionic-plugin-keyboard cordova-sms-plugin https://github.com/apache/cordova-plugin-whitelist.githttps://github.com/devgeeks/Canvas2ImagePlugin.githttps://github.com/wymsee/cordova-imagePicker.githttps://github.com/litehelpers/Cordova-sqlite-storage.git#0.7.14 https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin https://github.com/katzer/cordova-plugin-local-notifications

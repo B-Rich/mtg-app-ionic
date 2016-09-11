@@ -1,11 +1,21 @@
 'use strict';
 angular.module('main')
-    .controller('Liked-cardsCtrl', function ($log, $localForage, $scope) {
+    .controller('Liked-cardsCtrl', function ($log, $localForage, $scope, $ionicLoading) {
 
         $log.debug('Hello from your Controller: Liked-cardsCtrl in module main:. This is your controller:', this);
 
         var likedCards = $localForage.instance('likedCards');
         $scope.cards = [];
+
+        $ionicLoading.show({
+            content: 'Loading',
+            animation: 'fade-in',
+            showBackdrop: true,
+            maxWidth: 200,
+            showDelay: 0
+            // duration: 1
+        });
+
         function activateLikedCards () {
             $log.debug('Getting LikedCards');
             likedCards.keys().then(function (data) {
@@ -22,6 +32,7 @@ angular.module('main')
 
                 }
             );
+            $ionicLoading.hide();
         }
 
         // activateLikedCards();

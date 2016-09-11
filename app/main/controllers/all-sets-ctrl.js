@@ -1,10 +1,20 @@
 'use strict';
 angular.module('main')
-    .controller('All-setsCtrl', function ($scope, $log, CardSetsService, $localForage, $q) {
+    .controller('All-setsCtrl', function ($scope, $log, CardSetsService, $localForage, $q, $ionicLoading) {
 
         $log.debug('Hello from your Controller: All-setsCtrl in module main:. This is your controller:', this);
 
         $scope.cardSets = [];
+
+
+        $ionicLoading.show({
+            content: 'Loading',
+            animation: 'fade-in',
+            showBackdrop: true,
+            maxWidth: 200,
+            showDelay: 0
+            // duration: 1
+        });
 
         // var setCodes = $localForage.createInstance({
         //     name: 'setCodes',
@@ -71,6 +81,7 @@ angular.module('main')
         function activate () {
             return getCards().then(function () {
                 $log.debug('Activated Card Sets');
+                $ionicLoading.hide();
             });
         }
 
