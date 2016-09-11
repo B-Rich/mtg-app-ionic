@@ -1,6 +1,10 @@
 commands:
 gulp --cordova "run android"
 
+
+gulp --cordova "run android --release"
+
+
 cordova plugin remove cordova-plugin-crosswalk-webview
 
 
