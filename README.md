@@ -1,6 +1,19 @@
 commands:
 gulp --cordova "run android"
 
+cordova plugin remove cordova-plugin-crosswalk-webview
+
+
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore android-release-unsigned.apk alias_name
+
+
+zipalign -v 4 android-release-unsigned.apk MTGCardViewer.apk
+
+C:\Users\aalam\AppData\Local\Android\android-sdk\build-tools\23.0.3
+
 
 
 
@@ -22,7 +35,7 @@ This project was generated with Generator-M-Ionic v1.9.2. For more info visit th
 
 Development:
 
-[![Dev Coverage Status](http://img.shields.io/coveralls/mwaylabs/generator-m-ionic/dev.svg?style=flat-square)][coveralls-url]
+[![Dev Coverage Status](http://img.shields.io/coveralls/mwaylabs/generator-m-ionicsada/dev.svg?style=flat-square)][coveralls-url]
 [![Dev Build Status](https://img.shields.io/travis/mwaylabs/generator-m-ionic/dev.svg?style=flat-square)][travis-url]
 [![Dev Dependency Status](http://img.shields.io/david/mwaylabs/generator-m-ionic/dev.svg?style=flat-square)](https://david-dm.org/mwaylabs/generator-m-ionic/dev)
 

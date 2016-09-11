@@ -28,3 +28,5 @@
 /docs/
 /.idea/
 /Webscraping/nodeXRAY/node_modules/
+/my-release-key.keystore
+/android-release-unsigned.apk

@@ -1,7 +1,7 @@
 {
   "generator-m-ionic": {
     "answers": {
-      "appName": "mtg-app",
+      "appName": "MTG Card Viewer",
       "appId": "ashik.project",
       "ionicCss": false,
       "bowerPackages": [
